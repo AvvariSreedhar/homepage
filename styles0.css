@@ -1,0 +1,86 @@
+html
+{
+    height: 100%;
+}
+
+body
+{
+    font-family: 'PT Sans', sans-serif;
+    height: 100%;
+}
+
+.flex-box img
+{
+    transition: transform .2s;
+}
+
+.flex-box img:hover
+{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.50); 
+}
+
+/* style for nav-bar */
+.nav
+{
+    font-size: large;
+}
+
+/* style for images in index */
+.heading-container
+{
+    background-color: #e9ecef;
+    margin: 30px 0px;
+}
+
+.heading-container h3
+{
+    font-weight: 600;
+    text-align: center;
+    padding: 25px;
+}
+
+.flex-box
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px;
+}
+
+.flex-box img
+{
+    height: 250px;
+    margin: 20px 50px ;
+}
+
+/* style for footer */
+.footer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #111111;
+    color: #ffffff;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer p
+{
+    margin: 4px 2px;
+}
+
+/* style for link in footer */
+p a:link
+{
+    color: white;
+}
+
+p a:hover
+{
+    text-decoration: none;
+    color: green;
+}

@@ -1,0 +1,64 @@
+/* stylesheet for fun-facts.html & education.html */
+.container0
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container1
+{
+    display: flex;
+    flex-flow: row wrap  ;
+    justify-content: center;
+    border: 1px solid #007bff;
+    background-color: #e9ecef;
+    border-radius: 20px;
+    margin: 20px 10px;
+}
+
+.container1 img
+{
+    margin: 20px 40px;
+    height: 250px;
+    width: 370px;
+}
+
+.container0 p
+{
+    width: 400px;
+    margin: 20px 40px;
+    word-wrap: break-word;
+    text-align: center;
+    line-height: 45px;
+}
+
+ul
+{
+    margin: 20px 40px;
+    width: 375px;
+    line-height: 40px;
+}
+
+/* style for info button */
+button
+{
+    background-color: #025;
+    color: #5FA;
+    border-radius: 15px;
+    margin: 15px;
+    font-size: large;
+}
+
+button:focus
+{
+    outline: none;
+}
+
+/* style for span element */
+#insertHTML
+{   display: inline-block;
+    margin: 10px;
+    color: green;
+    font-size: large;    
+}
