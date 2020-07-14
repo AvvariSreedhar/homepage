@@ -9,18 +9,6 @@ body
     height: 100%;
 }
 
-.flex-box img
-{
-    transition: transform .2s;
-}
-
-.flex-box img:hover
-{
-    -ms-transform: scale(1.5); /* IE 9 */
-    -webkit-transform: scale(1.5); /* Safari 3-8 */
-    transform: scale(1.50); 
-}
-
 /* style for nav-bar */
 .nav
 {
