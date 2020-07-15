@@ -1,0 +1,36 @@
+/* style for articles.html */
+.hr-line
+{
+    border-top: 0.1px solid #007bff;
+    background-color: #007bff;
+    margin: auto;
+}
+.article-container
+{
+    background-color: #e6eff8;
+    max-width: 700px;
+    padding: 30px;
+    margin: 45px auto 30px;
+}
+
+.article-container span
+{
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 15px;
+    color: #999999;
+}
+
+.article-container p
+{
+    color: #666666;
+    line-height: 40px;
+    font-size: large;
+}
+
+.article-container img
+{
+    height: auto;
+    max-width: 100%;
+    margin: 20px auto;
+}   
