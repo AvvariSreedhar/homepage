@@ -54,11 +54,3 @@ button:focus
 {
     outline: none;
 }
-
-/* style for span element */
-#insertHTML
-{   display: inline-block;
-    margin: 10px;
-    color: #666666;
-    font-size: large;    
-}

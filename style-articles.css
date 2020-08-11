@@ -1,10 +1,4 @@
 /* style for articles.html */
-.hr-line
-{
-    border-top: 0.1px solid #007bff;
-    background-color: #007bff;
-    margin: auto;
-}
 .article-container
 {
     background-color: #e6eff8;
