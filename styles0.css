@@ -64,11 +64,44 @@ body
 /* style for link in footer */
 p a:link
 {
-    color: white;
+    color: green;
+    text-decoration: underline rgba(0, 128, 0, 0.25);
+
+
 }
 
 p a:hover
 {
-    text-decoration: none;
-    color: green;
+    text-decoration: underline rgba(0, 128, 0);
+}
+
+/* Add animations to images. */
+.myPhotos
+{
+    padding: 10px;
+    background-color: initial;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    box-sizing: border-box;
+    filter: sepia(50%);
+    transform: scale(0.9);
+    transition: all 250ms;    
+}
+
+.myPhotos:hover
+{
+    cursor: pointer;
+    filter: none;
+    border: 2px solid red;
+}
+
+.anim {
+    animation-name: zoom;
+    animation-duration: 1s;
+}
+
+@keyframes zoom {
+    50% {
+        transform: scale(1.1);
+    }
 }
