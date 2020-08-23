@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    overflow-x: hidden;
+    overflow: auto;
 }
 
 .container1
@@ -39,19 +39,4 @@ ul
     margin: 20px 40px;
     width: 375px;
     line-height: 40px;
-}
-
-/* style for info button */
-button
-{
-    background-color: #025;
-    color: #5FA;
-    border-radius: 15px;
-    margin: 15px;
-    font-size: large;
-}
-
-button:focus
-{
-    outline: none;
 }
