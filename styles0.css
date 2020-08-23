@@ -7,6 +7,7 @@ body
 {
     font-family: 'PT Sans', sans-serif;
     height: 100%;
+    padding-top: 68px;
 }
 
 /* style for nav-bar */
@@ -83,7 +84,6 @@ p a:hover
     border: 2px solid transparent;
     border-radius: 3px;
     box-sizing: border-box;
-    filter: sepia(50%);
     transform: scale(0.9);
     transition: all 250ms;    
 }
@@ -91,7 +91,6 @@ p a:hover
 .myPhotos:hover
 {
     cursor: pointer;
-    filter: none;
     border: 2px solid red;
 }
 
