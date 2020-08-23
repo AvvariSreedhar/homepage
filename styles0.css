@@ -7,6 +7,7 @@ body
 {
     font-family: 'PT Sans', sans-serif;
     height: 100%;
+    padding-top: 68px;
 }
 
 /* style for nav-bar */
