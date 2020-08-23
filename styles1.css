@@ -4,12 +4,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow-x: hidden;
 }
 
 .container1
 {
     display: flex;
-    flex-flow: row wrap  ;
+    flex-flow: row wrap;
     justify-content: center;
     border: 1px solid #007bff;
     background-color: #e9ecef;
